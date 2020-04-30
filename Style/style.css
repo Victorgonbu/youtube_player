@@ -1,9 +1,16 @@
+body{    
+background-color:#F5F4EE;
+}
+/*Search bar header*/
 .bar {
+    background-color: white;
     display: flex;
+  
     width: 80%;
-    height: 100%;
-    align-items: center;
+    height: 40px;
+    align-items:flex-start;
     margin: 0% 10% 0 10%;
+    
    
 }
 
@@ -42,9 +49,14 @@ font-family: arial;
     margin-left: 10px;
 }
 .margin{
+
  width: 80%;
  margin: 0% 10% 0% 10%;
+ 
+ margin-top: 10px;
 }
+
+
 p{
     margin: 0;
     padding: 0  ;
@@ -63,12 +75,19 @@ p{
 }
 
 .botton{
+    background-color: white;
     border: 2px solid rgb(22, 122, 218);
     margin-bottom: 20px;
     padding: 10px 10px 10px 10px;
 }
 
-.video{
-
+.description{
+  background-color: white;
+  width: 41%;
+  height: 110px;
 }
 
+
+*{
+    margin: 0%;
+}
