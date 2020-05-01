@@ -1,8 +1,12 @@
+    /* Background color*/
     body {
         background-color: #F5F4EE;
     }
     /*Search bar header*/
-    
+    .youtube-icon{
+        margin-right: 85px;
+             
+    }
     .bar {
         background-color: white;
         display: flex;
@@ -10,59 +14,72 @@
         height: auto;
         align-items: flex-start;
         margin: 0% 10% 0 10%;
+        
     }
     
     .search_bar {
-        max-width: 40%;
-        max-height: 19px;
-        text-align: left;
+        width:250px;  
+        height: 20px;  
+        align-self: center;
+        border: 1px solid gray ;
     }
+  
     
     .search_button {
-        align-items: center;
-        max-width: 100%;
-        max-height: 20px;
+        
+        align-self:center;
+        width: 25px;
+        height: 22px;
+        border: 1px solid #cfcfcf;
+        
     }
     
     .upload_icon {
+        
         max-width: 25%;
-        margin: 0px 18px 0px 50px;
+        margin: 0px 18px 0px 200px;
         height: 25px;
     }
     
     .button_sign {
         max-width: 100%;
+        max-height: 100%;
         background-color: rgb(0, 94, 218);
         border: 1px solid rgb(0, 94, 218);
         color: white;
         padding: 10px 15px;
         text-align: center;
-        font-size: .6vw;
+        font-size: .7vw;
         cursor: pointer;
         font-family: arial;
+    
+
     }
     
+    /*Spacing classes*/
     .spacing {
         margin-left: 10px;
     }
     
     .margin {
-        max-width: 80%;
-        margin: 0% 10% 0% 10%;
-        margin-top: 10px;
+        width: 80%;
+        margin: 12px 10% 0% 10%;
+        
     }
+
+    /*warning language alert*/
     
     p {
-        margin: 0;
-        padding: 0;
-        max-width: 70%;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
         font-family: arial;
         font-size: 13px;
     }
     
     .top {
         background-color: rgb(22, 122, 218);
-        margin: 20px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
         border: 2px solid rgb(22, 122, 218);
         padding: 10px;
         color: white;
@@ -71,20 +88,78 @@
     .botton {
         background-color: white;
         border: 2px solid rgb(22, 122, 218);
-        margin-bottom: 20px;
         padding: 10px 10px 10px 10px;
     }
+
+    /*Description section below*/
     
     .description {
         background-color: white;
-        max-width: 41%;
-        height: 110px;
+        width: 41%;
+        height: 50rem;
     }
     
     h3 {
-        font-size: 1vw;
+        margin: 0px ;
+        padding: 15px 0px 0px 15px;
+        font-size: 1.2vw;
+        font-family: arial;
+        font-weight:bold;
+        
     }
-    
+    .center{
+        align-self: center;
+    }
+
+    .flexbox{
+     display: flex;
+     margin: 10px 0px 10px 10px ;
+     align-items: flex-start;
+     
+         }
+    .margin_between{
+        margin: 5px;
+          }
+     
+
+    .suscriptor_number{
+        margin:5px 0px 0px 0px;
+        border:1px solid grey;
+        border-left: 1px solid red;
+        height:15px ;
+        width: 25px;
+        padding: 2px 2px 2px 2px;
+        text-align: center;
+        font-size: .9vw;
+        
+     }
+ 
+
+    .suscriptor_button{
+        margin-top: 5px;
+        background-color: red;
+        color: white;
+        border: 2px solid red;
+    }
+
+    .white_icon{
+        height:10px ;
+        width: 15px;
+        margin: 2px 2px 0px 2px;
+        
+    }
+
+    .views{
+      
+        margin-left: 250px;
+        height: 1.5em;   
+        border-bottom: 2px solid rgb(22, 122, 218);
+        font-size: 1rem;
+       
+    }
+
+ 
+
     * {
         margin: 0%;
     }
