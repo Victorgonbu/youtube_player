@@ -1,56 +1,165 @@
-body {
-    margin: 10%;
-    margin-top: 0%;
-    display: fixed;
-    height: 100%;
-    width: 100%;
-}
+    /* Background color*/
+    body {
+        background-color: #F5F4EE;
+    }
+    /*Search bar header*/
+    .youtube-icon{
+        margin-right: 85px;
+             
+    }
+    .bar {
+        background-color: white;
+        display: flex;
+        max-width: 80%;
+        height: auto;
+        align-items: flex-start;
+        margin: 0% 10% 0 10%;
+        
+    }
+    
+    .search_bar {
+        width:250px;  
+        height: 20px;  
+        align-self: center;
+        border: 1px solid gray ;
+    }
+  
+    
+    .search_button {
+        
+        align-self:center;
+        width: 25px;
+        height: 22px;
+        border: 1px solid #cfcfcf;
+        
+    }
+    
+    .upload_icon {
+        
+        max-width: 25%;
+        margin: 0px 18px 0px 200px;
+        height: 25px;
+    }
+    
+    .button_sign {
+        max-width: 100%;
+        max-height: 100%;
+        background-color: rgb(0, 94, 218);
+        border: 1px solid rgb(0, 94, 218);
+        color: white;
+        padding: 10px 15px;
+        text-align: center;
+        font-size: .7vw;
+        cursor: pointer;
+        font-family: arial;
+    
 
-.youtube-icon {
-    float: left;
-    width: 18%;
-}
+    }
+    
+    /*Spacing classes*/
+    .spacing {
+        margin-left: 10px;
+    }
+    
+    .margin {
+        width: 80%;
+        margin: 12px 10% 0% 10%;
+        
+    }
 
-.search_bar {
-    float: left;
-    width: 30%;
-    height: 21px;
-    margin: 0.5%;
-    margin-top: 0.8%;
-}
+    /*warning language alert*/
+    
+    p {
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        font-family: arial;
+        font-size: 13px;
+    }
+    
+    .top {
+        background-color: rgb(22, 122, 218);
+        margin: 0px 0px 0px 0px;
+        border: 2px solid rgb(22, 122, 218);
+        padding: 10px;
+        color: white;
+    }
+    
+    .botton {
+        background-color: white;
+        border: 2px solid rgb(22, 122, 218);
+        padding: 10px 10px 10px 10px;
+    }
 
-.search_button {
-    float: left;
-    width: 66px;
-    height: 29px;
-    margin-top: 0.8%;
-    padding: 0%;
-    margin-left: 0%;
-}
+    /*Description section below*/
+    
+    .description {
+        background-color: white;
+        width: 41%;
+        height: 50rem;
+    }
+    
+    h3 {
+        margin: 0px ;
+        padding: 15px 0px 0px 15px;
+        font-size: 1.2vw;
+        font-family: arial;
+        font-weight:bold;
+        
+    }
+    .center{
+        align-self: center;
+    }
 
-.upload_icon {
-    margin-top: 15px;
-    padding: 0%;
-    width: 24px;
-    height: 24px;
-    margin-left: 100px;
-    margin-right: 30px;
-}
+    .flexbox{
+     display: flex;
+     margin: 10px 0px 10px 10px ;
+     align-items: flex-start;
+     
+         }
+    .margin_between{
+        margin: 5px;
+          }
+     
 
-.button_green {
-    background-color: rgba(0, 94, 218, 0.932);
-    border: none;
-    color: white;
-    padding: 10px 15px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    position: absolute;
-    margin-top: 0.5%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-}
+    .suscriptor_number{
+        margin:5px 0px 0px 0px;
+        border:1px solid grey;
+        border-left: 1px solid red;
+        height:15px ;
+        width: 25px;
+        padding: 2px 2px 2px 2px;
+        text-align: center;
+        font-size: .9vw;
+        
+     }
+ 
 
-.button_green:hover {
-    background-color: blue;
-}
+    .suscriptor_button{
+        margin-top: 5px;
+        background-color: red;
+        color: white;
+        border: 2px solid red;
+    }
+
+    .white_icon{
+        height:10px ;
+        width: 15px;
+        margin: 2px 2px 0px 2px;
+        
+    }
+
+    .views{
+      
+        margin-left: 250px;
+        height: 1.5em;   
+        border-bottom: 2px solid rgb(22, 122, 218);
+        font-size: 1rem;
+       
+    }
+
+ 
+
+    * {
+        margin: 0%;
+    }
